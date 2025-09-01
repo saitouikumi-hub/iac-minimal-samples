@@ -5,20 +5,20 @@
 
 このリポジトリは以下のtfファイルにより構成されます。
 
-# Terraform/AWS Providerのバージョン指定
-versions.tf
+# versions.tf
+Terraform/AWS Providerのバージョン指定
 
-# Providerとリージョンの指定
-providers.tf
+# providers.tf
+Providerとリージョンの指定
 
-# 変数の定義（project/cidr/envなど）
-variables.tf
+# variables.tf
+変数の定義（project/cidr/envなど）
 
-# VPC/サブネット/Internet Gateway/ルートテーブルの定義
-network.tf
+# network.tf
+VPC/サブネット/Internet Gateway/ルートテーブルの定義
 
-# セキュリティグループの定義（Outbound/Inbound通信）
-security_groups.tf
+# security_groups.tf
+セキュリティグループの定義（Outbound/Inbound通信）
 
-# EC2の定義（AMI/keypair/EC2上に導入する環境など）
-ec2.tf
+# ec2.tf
+EC2の定義（AMI/keypair/EC2上に導入する環境など）
