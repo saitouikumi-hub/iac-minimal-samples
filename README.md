@@ -5,7 +5,7 @@
 
 このリポジトリは以下のtfファイルにより構成されます。
 
-# Terrafrom/AWS Providerのバージョン指定
+# Terraform/AWS Providerのバージョン指定
 versions.tf
 
 # Providerとリージョンの指定
